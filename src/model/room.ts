@@ -12,13 +12,14 @@ var segseg = require('segseg')
 var Polygon = require('polygon')
 */
 
+const defaultRoomTexture = {
+  url: "rooms/textures/hardwood.png",
+  scale: 400
+}
 module BP3D.Model {
 
   /** Default texture to be used if nothing is provided. */
-  const defaultRoomTexture = {
-    url: "rooms/textures/hardwood.png",
-    scale: 400
-  }
+  
 
   /** 
    * A Room is the combination of a Floorplan with a floor plane. 
